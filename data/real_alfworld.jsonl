@@ -1,0 +1,514 @@
+{"tool_output": "You are in the middle of a room. Looking quickly around you, you see a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 2, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\nYour task is to: put some spraybottle on toilet."}
+{"tool_output": "OK."}
+{"tool_output": "OK."}
+{"tool_output": "On the cabinet 1, you see a cloth 1, a soapbar 1, a soapbottle 1."}
+{"tool_output": "The cabinet 2 is closed."}
+{"tool_output": "You open the cabinet 2. The cabinet 2 is open. In it, you see a candle 1, and a spraybottle 2."}
+{"tool_output": "> take spraybottle 2 from cabinet 2\nYou pick up the spraybottle 2 from the cabinet 2."}
+{"tool_output": "OK."}
+{"tool_output": "On the toilet 1, you see a soapbottle 2."}
+{"tool_output": "You put the spraybottle 2 in/on the toilet 1."}
+{"tool_output": "You are in the middle of a room. Looking quickly around you, you see a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 1, a diningtable 3, a diningtable 2, a diningtable 1, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a sidetable 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\nYour task is to: find some apple and put it in sidetable."}
+{"tool_output": "OK."}
+{"tool_output": "OK."}
+{"tool_output": "The fridge 1 is closed."}
+{"tool_output": "You open the fridge 1. The fridge 1 is open. In it, you see a lettuce 2, a mug 2, a potato 2, and a tomato 1."}
+{"tool_output": "On the diningtable 1, you see nothing."}
+{"tool_output": "On the diningtable 2, you see a pineapple 1."}
+{"tool_output": "On the diningtable 3, you see a bowl 2, a bowl 1, a bread 2, and a bread 1."}
+{"tool_output": "On the sidetable 1, you see a cup 1, a lettuce 1, a peppershaker 3, a potato 1, and a saltshaker 1."}
+{"tool_output": "On the countertop 1, you see a butterknife 1, a dishsponge 1, and a soapbottle 1."}
+{"tool_output": "On the sinkbasin 1, you see a cup 2, a egg 1, a mug 1, and a potato 3."}
+{"tool_output": "On the garbagecan 1, you see a apple 3, and a egg 3."}
+{"tool_output": "> take apple 3 from garbagecan 1\nYou pick up the apple 3 from the garbagecan 1."}
+{"tool_output": "OK."}
+{"tool_output": "On the sidetable 1, you see a cup 1, a lettuce 1, a peppershaker 3, a potato 1, and a saltshaker 1."}
+{"tool_output": "You put the apple 3 in/on the sidetable 1."}
+{"tool_output": "You are in the middle of a room. Looking quickly around you, you see a bathtubbasin 1, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a dresser 1, a garbagecan 1, a handtowelholder 1, a sinkbasin 2, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\nYour task is to: put a soapbottle in garbagecan."}
+{"tool_output": "OK."}
+{"tool_output": "OK."}
+{"tool_output": "On the toilet 1, you see nothing."}
+{"tool_output": "On the sinkbasin 1, you see nothing."}
+{"tool_output": "On the sinkbasin 2, you see nothing."}
+{"tool_output": "On the bathtubbasin 1, you see a cloth 2."}
+{"tool_output": "The cabinet 1 is closed."}
+{"tool_output": "You open the cabinet 1. The cabinet 1 is open. In it, you see nothing."}
+{"tool_output": "The cabinet 2 is closed."}
+{"tool_output": "You open the cabinet 2. The cabinet 2 is open. In it, you see nothing."}
+{"tool_output": "The cabinet 3 is closed."}
+{"tool_output": "You open the cabinet 3. The cabinet 3 is open. In it, you see a toiletpaper 2."}
+{"tool_output": "The cabinet 4 is closed."}
+{"tool_output": "You open the cabinet 4. The cabinet 4 is open. In it, you see a spraybottle 2."}
+{"tool_output": "On the countertop 1, you see a soapbottle 2, and a spraybottle 1."}
+{"tool_output": "OK."}
+{"tool_output": "You pick up the soapbottle 2 from the countertop 1."}
+{"tool_output": "OK."}
+{"tool_output": "On the garbagecan 1, you see nothing."}
+{"tool_output": "You put the soapbottle 2 in/on the garbagecan 1."}
+{"tool_output": "You are in the middle of a room. Looking quickly around you, you see a cabinet 13, a cabinet 12, a cabinet 11, a cabinet 10, a cabinet 9, a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 1, a diningtable 1, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a shelf 3, a shelf 2, a shelf 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\nYour task is to: put a clean lettuce in diningtable."}
+{"tool_output": "OK."}
+{"tool_output": "OK."}
+{"tool_output": "The fridge 1 is closed."}
+{"tool_output": "You open the fridge 1. The fridge 1 is open. In it, you see a cup 3, a egg 2, a potato 3, and a potato 2."}
+{"tool_output": "On the diningtable 1, you see a apple 1, a bread 1, a butterknife 2, a cup 2, a fork 2, a knife 2, a knife 1, a ladle 1, a lettuce 1, a mug 2, a mug 1, a pan 2, a peppershaker 1, a spatula 3, a tomato 2, and a tomato 1."}
+{"tool_output": "OK."}
+{"tool_output": "You pick up the lettuce 1 from the diningtable 1."}
+{"tool_output": "OK."}
+{"tool_output": "On the sinkbasin 1, you see a apple 2, a ladle 2, a spoon 1, and a tomato 3."}
+{"tool_output": "You clean the lettuce 1 using the sinkbasin 1."}
+{"tool_output": "OK."}
+{"tool_output": "On the diningtable 1, you see a apple 1, a bread 1, a butterknife 2, a cup 2, a fork 2, a knife 2, a knife 1, a ladle 1, a mug 2, a mug 1, a pan 2, a peppershaker 1, a spatula 3, a tomato 2, and a tomato 1."}
+{"tool_output": "You put the lettuce 1 in/on the diningtable 1."}
+{"tool_output": "You are in the middle of a room. Looking quickly around you, you see a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 1, a diningtable 3, a diningtable 2, a diningtable 1, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a sidetable 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\nYour task is to: clean some apple and put it in sidetable."}
+{"tool_output": "OK."}
+{"tool_output": "OK."}
+{"tool_output": "The fridge 1 is closed."}
+{"tool_output": "You open the fridge 1. The fridge 1 is open. In it, you see a lettuce 2, a mug 2, a potato 2, and a tomato 1."}
+{"tool_output": "On the diningtable 1, you see nothing."}
+{"tool_output": "On the diningtable 2, you see a pineapple 1."}
+{"tool_output": "On the diningtable 3, you see a bowl 2, a bowl 1, a bread 2, and a bread 1."}
+{"tool_output": "On the sidetable 1, you see a cup 1, a lettuce 1, a peppershaker 3, a potato 1, and a saltshaker 1."}
+{"tool_output": "On the countertop 1, you see a butterknife 1, a dishsponge 1, and a soapbottle 1."}
+{"tool_output": "On the sinkbasin 1, you see a cup 2, a egg 1, a mug 1, and a potato 3."}
+{"tool_output": "On the garbagecan 1, you see a apple 3, and a egg 3."}
+{"tool_output": "OK."}
+{"tool_output": "You pick up the apple 3 from the garbagecan 1."}
+{"tool_output": "OK."}
+{"tool_output": "On the sinkbasin 1, you see a cup 2, a egg 1, a mug 1, and a potato 3."}
+{"tool_output": "You clean the apple 3 using the sinkbasin 1."}
+{"tool_output": "OK."}
+{"tool_output": "On the sidetable 1, you see a cup 1, a lettuce 1, a peppershaker 3, a potato 1, and a saltshaker 1."}
+{"tool_output": "You put the apple 3 in/on the sidetable 1."}
+{"tool_output": "You are in the middle of a room. Looking quickly around you, you see a bathtubbasin 1, a garbagecan 1, a handtowelholder 1, a shelf 3, a shelf 2, a shelf 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\nYour task is to: clean some soapbar and put it in toilet."}
+{"tool_output": "OK."}
+{"tool_output": "OK."}
+{"tool_output": "On the toilet 1, you see a soapbar 4, and a soapbar 3."}
+{"tool_output": "OK."}
+{"tool_output": "You pick up the soapbar 4 from the toilet 1."}
+{"tool_output": "OK."}
+{"tool_output": "On the sinkbasin 1, you see nothing."}
+{"tool_output": "You clean the soapbar 4 using the sinkbasin 1."}
+{"tool_output": "OK."}
+{"tool_output": "On the toilet 1, you see a soapbar 3."}
+{"tool_output": "You put the soapbar 4 in/on the toilet 1."}
+{"tool_output": "You are in the middle of a room. Looking quickly around you, you see a cabinet 10, a cabinet 9, a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 3, a countertop 2, a countertop 1, a diningtable 1, a drawer 6, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\nYour task is to: heat some egg and put it in diningtable."}
+{"tool_output": "OK."}
+{"tool_output": "OK."}
+{"tool_output": "You open the fridge 1. The fridge 1 is open. In it, you see a lettuce 2, a mug 2, and a potato 3."}
+{"tool_output": "On the countertop 1, you see a bread 1, a fork 1, and a saltshaker 1."}
+{"tool_output": "On the countertop 2, you see nothing."}
+{"tool_output": "On the countertop 3, you see a bowl 1, a butterknife 1, a egg 2, a kettle 2, a plate 1, a sink 1, and a spatula 2."}
+{"tool_output": "OK."}
+{"tool_output": "You pick up the egg 2 from the countertop 3."}
+{"tool_output": "OK."}
+{"tool_output": "The microwave 1 is closed."}
+{"tool_output": "You heat the egg 2 using the microwave 1."}
+{"tool_output": "OK."}
+{"tool_output": "On the diningtable 1, you see a apple 2, a bread 3, a egg 1, a kettle 1, a knife 1, a mug 1, a papertowelroll 1, a peppershaker 2, a potato 1, a soapbottle 1, and a spatula 1."}
+{"tool_output": "You put the egg 2 in/on the diningtable 1."}
+{"tool_output": "You are in the middle of a room. Looking quickly around you, you see a cabinet 13, a cabinet 12, a cabinet 11, a cabinet 10, a cabinet 9, a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 1, a diningtable 1, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a shelf 3, a shelf 2, a shelf 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\nYour task is to: put a hot apple in fridge."}
+{"tool_output": "OK."}
+{"tool_output": "OK."}
+{"tool_output": "The fridge 1 is closed."}
+{"tool_output": "You open the fridge 1. The fridge 1 is open. In it, you see a cup 1, and a egg 1."}
+{"tool_output": "On the diningtable 1, you see a apple 1, a bread 1, a fork 3, a fork 2, a fork 1, a mug 2, a peppershaker 3, a plate 2, a pot 1, a soapbottle 3, a spatula 1, a spoon 3, a spoon 2, a spoon 1, a winebottle 3, and a winebottle 2."}
+{"tool_output": "OK."}
+{"tool_output": "You pick up the apple 1 from the diningtable 1."}
+{"tool_output": "OK."}
+{"tool_output": "The microwave 1 is closed."}
+{"tool_output": "You heat the apple 1 using the microwave 1."}
+{"tool_output": "OK."}
+{"tool_output": "The fridge 1 is open. In it, you see a cup 1, and a egg 1."}
+{"tool_output": "You put the apple 1 in/on the fridge 1."}
+{"tool_output": "You are in the middle of a room. Looking quickly around you, you see a cabinet 11, a cabinet 10, a cabinet 9, a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 2, a countertop 1, a diningtable 1, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\nYour task is to: heat some bread and put it in countertop."}
+{"tool_output": "OK."}
+{"tool_output": "OK."}
+{"tool_output": "The fridge 1 is closed."}
+{"tool_output": "You open the fridge 1. The fridge 1 is open. In it, you see a mug 3, and a mug 2."}
+{"tool_output": "On the toaster 1, you see nothing."}
+{"tool_output": "On the diningtable 1, you see a bread 4, a bread 3, a bread 2, a bread 1, a cup 2, a knife 1, a lettuce 1, a potato 3, a tomato 3, a tomato 2, and a winebottle 3."}
+{"tool_output": "OK."}
+{"tool_output": "You pick up the bread 1 from the diningtable 1."}
+{"tool_output": "OK."}
+{"tool_output": "The microwave 1 is closed."}
+{"tool_output": "You heat the bread 1 using the microwave 1."}
+{"tool_output": "OK."}
+{"tool_output": "On the countertop 1, you see a apple 1, a egg 1, a pan 2, a peppershaker 3, a plate 2, a plate 1, a soapbottle 1, and a winebottle 1."}
+{"tool_output": "You put the bread 1 in/on the countertop 1."}
+{"tool_output": "You are in the middle of a room. Looking quickly around you, you see a cabinet 16, a cabinet 15, a cabinet 14, a cabinet 13, a cabinet 12, a cabinet 11, a cabinet 10, a cabinet 9, a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 2, a countertop 1, a diningtable 1, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a safe 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\nYour task is to: cool some pan and put it in stoveburner."}
+{"tool_output": "OK."}
+{"tool_output": "OK.\n>go to stoveburner 1\nOn the stoveburner 1, you see nothing.\n>go to stoveburner 2\nOn the stoveburner 2, you see a pot 1."}
+{"tool_output": "On the stoveburner 3, you see a pan 1."}
+{"tool_output": "> think: Now I find a pan (1). Next, I need to take it.\nOK.\nYou pick up the pan 1 from the stoveburner 3."}
+{"tool_output": "OK."}
+{"tool_output": "The fridge 1 is closed."}
+{"tool_output": "You cool the pan 1 using the fridge 1."}
+{"tool_output": "OK.\n>go to stoveburner 1\nOn the stoveburner 1, you see nothing."}
+{"tool_output": "You put the pan 1 in/on the stoveburner 1."}
+{"tool_output": "You are in the middle of a room. Looking quickly around you, you see a cabinet 9, a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 3, a countertop 2, a countertop 1, a drawer 9, a drawer 8, a drawer 7, a drawer 6, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a shelf 3, a shelf 2, a shelf 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\nYour task is to: put a cool mug in shelf."}
+{"tool_output": "OK."}
+{"tool_output": "OK."}
+{"tool_output": "On the countertop 1, you see a knife 1, a pan 2, a pan 1, and a plate 1."}
+{"tool_output": "On the countertop 2, you see a apple 2, a butterknife 2, a fork 3, a houseplant 1, a knife 2, a lettuce 3, a spatula 1, and a winebottle 1."}
+{"tool_output": "On the countertop 3, you see a apple 1, a book 1, a bread 1, a butterknife 3, a glassbottle 2, a glassbottle 1, a knife 3, a lettuce 2, a lettuce 1, a papertowelroll 1, a plate 3, a spoon 1, a statue 1, and a vase 2."}
+{"tool_output": "On the coffeemachine 1, you see nothing."}
+{"tool_output": "The cabinet 1 is closed."}
+{"tool_output": "You open the cabinet 1. The cabinet 1 is open. In it, you see nothing."}
+{"tool_output": "The cabinet 2 is closed."}
+{"tool_output": "You open the cabinet 2. The cabinet 2 is open. In it, you see nothing."}
+{"tool_output": "The cabinet 3 is closed."}
+{"tool_output": "You open the cabinet 3. The cabinet 3 is open. In it, you see a pot 1."}
+{"tool_output": "On the cabinet 4, you see nothing."}
+{"tool_output": "The cabinet 5 is closed."}
+{"tool_output": "You open the cabinet 5. The cabinet 5 is open. In it, you see nothing."}
+{"tool_output": "The cabinet 6 is closed."}
+{"tool_output": "You open the cabinet 6. The cabinet 6 is open. In it, you see a mug 3."}
+{"tool_output": "OK."}
+{"tool_output": "You pick up the mug 3 from the cabinet 6."}
+{"tool_output": "OK."}
+{"tool_output": "The fridge 1 is closed."}
+{"tool_output": "You cool the mug 3 using the fridge 1."}
+{"tool_output": "OK."}
+{"tool_output": "On the shelf 1, you see a cup 2, a cup 1, a peppershaker 1, and a saltshaker 1."}
+{"tool_output": "You put the mug 3 in/on the shelf 1."}
+{"tool_output": "You are in the middle of a room. Looking quickly around you, you see a cabinet 12, a cabinet 11, a cabinet 10, a cabinet 9, a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 2, a countertop 1, a diningtable 1, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\nYour task is to: cool some potato and put it in diningtable."}
+{"tool_output": "OK."}
+{"tool_output": "OK."}
+{"tool_output": "The fridge 1 is closed."}
+{"tool_output": "You open the fridge 1. The fridge 1 is open. In it, you see a apple 1, a bowl 1, a lettuce 2, and a lettuce 1."}
+{"tool_output": "On the diningtable 1, you see a apple 3, a bread 1, a butterknife 3, a egg 2, a fork 1, a knife 2, a knife 1, a mug 1, a peppershaker 3, a plate 1, a potato 4, a potato 2, a saltshaker 2, a soapbottle 2, and a tomato 3."}
+{"tool_output": "OK."}
+{"tool_output": "You pick up the potato 2 from the diningtable 1."}
+{"tool_output": "OK."}
+{"tool_output": "The fridge 1 is open. In it, you see a apple 1, a bowl 1, a lettuce 2, and a lettuce 1."}
+{"tool_output": "You cool the potato 2 using the fridge 1."}
+{"tool_output": "OK."}
+{"tool_output": "On the diningtable 1, you see a apple 3, a bread 1, a butterknife 3, a egg 2, a fork 1, a knife 2, a knife 1, a mug 1, a peppershaker 3, a plate 1, a potato 4, a saltshaker 2, a soapbottle 2, and a tomato 3."}
+{"tool_output": "You put the potato 2 in/on the diningtable 1."}
+{"tool_output": "You are in the middle of a room. Looking quickly around you, you see a armchair 2, a armchair 1, a bed 1, a countertop 1, a diningtable 1, a drawer 2, a drawer 1, a dresser 1, a garbagecan 1, a laundryhamper 1, and a sidetable 1.\nYour task is to: put two creditcard in dresser."}
+{"tool_output": "OK."}
+{"tool_output": "OK."}
+{"tool_output": "The drawer 1 is closed."}
+{"tool_output": "You open the drawer 1. The drawer 1 is open. In it, you see a book 1, a cd 1, and a pen 1."}
+{"tool_output": "The drawer 2 is closed."}
+{"tool_output": "You open the drawer 2. The drawer 2 is open. In it, you see nothing."}
+{"tool_output": "On the countertop 1, you see a cellphone 2, a creditcard 4, a creditcard 3, a creditcard 2, a mirror 1, a pencil 2, and a pencil 1."}
+{"tool_output": "OK."}
+{"tool_output": "You pick up the creditcard 2 from the countertop 1."}
+{"tool_output": "OK."}
+{"tool_output": "On the dresser 1, you see a mug 1, and a television 1."}
+{"tool_output": "You put the creditcard 2 in/on the dresser 1."}
+{"tool_output": "OK."}
+{"tool_output": "On the countertop 1, you see a cellphone 2, a creditcard 4, a creditcard 3, a mirror 1, a pencil 2, and a pencil 1."}
+{"tool_output": "OK."}
+{"tool_output": "You pick up the creditcard 3 from the countertop 1."}
+{"tool_output": "OK."}
+{"tool_output": "On the dresser 1, you see a creditcard 2, a mug 1, and a television 1."}
+{"tool_output": "You put the creditcard 3 in/on the dresser 1."}
+{"tool_output": "You are in the middle of a room. Looking quickly around you, you see a coffeetable 1, a diningtable 1, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a dresser 1, a garbagecan 1, a sidetable 2, a sidetable 1, and a sofa 1.\nYour task is to: put two cellphone in sofa."}
+{"tool_output": "OK."}
+{"tool_output": "OK."}
+{"tool_output": "On the coffeetable 1, you see a box 1, a cellphone 3, and a plate 1."}
+{"tool_output": "You pick up the cellphone 3 from the coffeetable 1."}
+{"tool_output": "OK."}
+{"tool_output": "On the sofa 1, you see a newspaper 2, a pillow 1, a remotecontrol 2, and a remotecontrol 1."}
+{"tool_output": "You put the cellphone 3 in/on the sofa 1."}
+{"tool_output": "OK."}
+{"tool_output": "On the diningtable 1, you see a cellphone 2, a keychain 2, a laptop 1, a statue 2, and a statue 1."}
+{"tool_output": "OK."}
+{"tool_output": "You pick up the cellphone 2 from the diningtable 1."}
+{"tool_output": "OK."}
+{"tool_output": "On the sofa 1, you see a cellphone 3, a newspaper 2, a pillow 1, a remotecontrol 2, and a remotecontrol 1."}
+{"tool_output": "You put the cellphone 2 in/on the sofa 1."}
+{"tool_output": "You are in the middle of a room. Looking quickly around you, you see a cabinet 20, a cabinet 19, a cabinet 18, a cabinet 17, a cabinet 16, a cabinet 15, a cabinet 14, a cabinet 13, a cabinet 12, a cabinet 11, a cabinet 10, a cabinet 9, a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 3, a countertop 2, a countertop 1, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a shelf 3, a shelf 2, a shelf 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\nYour task is to: put two saltshaker in drawer."}
+{"tool_output": "OK."}
+{"tool_output": "OK."}
+{"tool_output": "The drawer 1 is closed."}
+{"tool_output": "You open the drawer 1. The drawer 1 is open. In it, you see nothing."}
+{"tool_output": "The drawer 2 is closed."}
+{"tool_output": "You open the drawer 2. The drawer 2 is open. In it, you see a dishsponge 3."}
+{"tool_output": "The drawer 3 is closed."}
+{"tool_output": "You open the drawer 3. The drawer 3 is open. In it, you see a fork 2, a ladle 2, and a spoon 1."}
+{"tool_output": "On the countertop 1, you see a bowl 1, a butterknife 1, a mug 2, a pan 1, a papertowelroll 1, a spatula 1, and a statue 3."}
+{"tool_output": "On the countertop 2, you see a bread 1, a butterknife 2, a dishsponge 2, a fork 1, a kettle 1, a knife 1, a ladle 1, a spatula 3, a spoon 2, a statue 2, and a vase 3."}
+{"tool_output": "On the countertop 3, you see a bowl 2, a houseplant 1, a knife 2, a peppershaker 1, a saltshaker 4, a soapbottle 1, a spatula 2, and a tomato 3."}
+{"tool_output": "OK."}
+{"tool_output": "You pick up the saltshaker 4 from the countertop 3."}
+{"tool_output": "OK."}
+{"tool_output": "The drawer 1 is open. In it, you see nothing."}
+{"tool_output": "You put the saltshaker 4 in/on the drawer 1."}
+{"tool_output": "OK."}
+{"tool_output": "On the shelf 1, you see a statue 1."}
+{"tool_output": "On the shelf 2, you see a dishsponge 1, and a vase 1."}
+{"tool_output": "On the shelf 3, you see nothing."}
+{"tool_output": "The cabinet 1 is closed."}
+{"tool_output": "You open the cabinet 1. The cabinet 1 is open. In it, you see nothing."}
+{"tool_output": "Nothing happens."}
+{"tool_output": "You are facing the cabinet 2, and cabinet 1. Next to it, you see nothing."}
+{"tool_output": "The cabinet 3 is closed."}
+{"tool_output": "You open the cabinet 3. The cabinet 3 is open. In it, you see a saltshaker 3, and a saltshaker 2."}
+{"tool_output": "OK."}
+{"tool_output": "You pick up the saltshaker 2 from the cabinet 3."}
+{"tool_output": "OK."}
+{"tool_output": "The drawer 1 is open. In it, you see a saltshaker 4."}
+{"tool_output": "You put the saltshaker 2 in/on the drawer 1."}
+{"tool_output": "You are in the middle of a room. Looking quickly around you, you see a bed 1, a desk 1, a drawer 3, a drawer 2, a drawer 1, a garbagecan 1, a safe 1, a shelf 5, a shelf 4, a shelf 3, a shelf 2, a shelf 1, a sidetable 2, and a sidetable 1.\nYour task is to: look at bowl under the desklamp."}
+{"tool_output": "OK."}
+{"tool_output": "OK."}
+{"tool_output": "On the drawer 1, you see nothing."}
+{"tool_output": "The drawer 2 is closed."}
+{"tool_output": "You open the drawer 2. The drawer 2 is open. In it, you see nothing."}
+{"tool_output": "The drawer 3 is closed."}
+{"tool_output": "You open the drawer 3. The drawer 3 is open. In it, you see nothing."}
+{"tool_output": "On the desk 1, you see a alarmclock 2, a book 1, a cellphone 1, a keychain 1, a laptop 2, a laptop 1, and a pen 3."}
+{"tool_output": "On the sidetable 1, you see a cd 1, a pen 1, and a pencil 1."}
+{"tool_output": "On the shelf 1, you see nothing."}
+{"tool_output": "On the shelf 2, you see a bowl 1."}
+{"tool_output": "OK."}
+{"tool_output": "You pick up the bowl 1 from the shelf 2."}
+{"tool_output": "OK."}
+{"tool_output": "On the desk 1, you see a alarmclock 2, a book 1, a cellphone 1, a keychain 1, a laptop 2, a laptop 1, and a pen 3."}
+{"tool_output": "On the sidetable 1, you see a cd 1, a pen 1, and a pencil 1."}
+{"tool_output": "On the sidetable 2, you see a alarmclock 1, a desklamp 1, and a pen 2."}
+{"tool_output": "OK."}
+{"tool_output": "You turn on the desklamp 1."}
+{"tool_output": "You are in the middle of a room. Looking quickly around you, you see a bed 1, a drawer 10, a drawer 9, a drawer 8, a drawer 7, a drawer 6, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a dresser 1, a garbagecan 1, a shelf 9, a shelf 8, a shelf 7, a shelf 6, a shelf 5, a shelf 4, a shelf 3, a shelf 2, and a shelf 1.\nYour task is to: examine the pen with the desklamp."}
+{"tool_output": "OK."}
+{"tool_output": "The drawer 1 is closed."}
+{"tool_output": "You open the drawer 1. The drawer 1 is open. In it, you see nothing."}
+{"tool_output": "The drawer 2 is closed."}
+{"tool_output": "You open the drawer 2. The drawer 2 is open. In it, you see nothing."}
+{"tool_output": "The drawer 3 is closed."}
+{"tool_output": "You open the drawer 3. The drawer 3 is open. In it, you see nothing."}
+{"tool_output": "The drawer 4 is closed."}
+{"tool_output": "You open the drawer 4. The drawer 4 is open. In it, you see a cd 3, a keychain 1, and a pen 2."}
+{"tool_output": "OK."}
+{"tool_output": "You pick up the pen 2 from the drawer 4."}
+{"tool_output": "OK."}
+{"tool_output": "On the dresser 1, you see a alarmclock 2, a alarmclock 1, a book 1, a cd 1, a creditcard 1, a desklamp 1, a keychain 2, a pen 3, and a pen 1."}
+{"tool_output": "OK."}
+{"tool_output": "You turn on the desklamp 1."}
+{"tool_output": "You are in the middle of a room. Looking quickly around you, you see a coffeetable 1, a diningtable 1, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a dresser 1, a garbagecan 1, a sidetable 2, a sidetable 1, and a sofa 1.\nYour task is to: look at statue under the desklamp."}
+{"tool_output": "OK."}
+{"tool_output": "OK."}
+{"tool_output": "On the dresser 1, you see a cellphone 3, a newspaper 2, a statue 1, and a television 1."}
+{"tool_output": "OK."}
+{"tool_output": "You pick up the statue 1 from the dresser 1."}
+{"tool_output": "OK."}
+{"tool_output": "On the sidetable 1, you see nothing."}
+{"tool_output": "On the sidetable 2, you see a desklamp 3, a newspaper 1, and a statue 2."}
+{"tool_output": "OK."}
+{"tool_output": "You turn on the desklamp 3."}
+{"tool_output": "You are in the middle of a room. Looking quickly around you, you see a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 2, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\nYour task is to: put some spraybottle on toilet."}
+{"tool_output": "On the cabinet 1, you see a cloth 1, a soapbar 1, a soapbottle 1."}
+{"tool_output": "The cabinet 2 is closed."}
+{"tool_output": "You open the cabinet 2. The cabinet 2 is open. In it, you see a candle 1, and a spraybottle 2."}
+{"tool_output": "You pick up the spraybottle 2 from the cabinet 2."}
+{"tool_output": "On the toilet 1, you see a soapbottle 2."}
+{"tool_output": "You put the spraybottle 2 in/on the toilet 1."}
+{"tool_output": "You are in the middle of a room. Looking quickly around you, you see a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 1, a diningtable 3, a diningtable 2, a diningtable 1, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a sidetable 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\nYour task is to: find some apple and put it in sidetable."}
+{"tool_output": "The fridge 1 is closed."}
+{"tool_output": "You open the fridge 1. The fridge 1 is open. In it, you see a lettuce 2, a mug 2, a potato 2, and a tomato 1."}
+{"tool_output": "On the diningtable 1, you see nothing."}
+{"tool_output": "On the diningtable 2, you see a pineapple 1."}
+{"tool_output": "On the diningtable 3, you see a bowl 2, a bowl 1, a bread 2, and a bread 1."}
+{"tool_output": "On the sidetable 1, you see a cup 1, a lettuce 1, a peppershaker 3, a potato 1, and a saltshaker 1."}
+{"tool_output": "On the countertop 1, you see a butterknife 1, a dishsponge 1, and a soapbottle 1."}
+{"tool_output": "On the sinkbasin 1, you see a cup 2, a egg 1, a mug 1, and a potato 3."}
+{"tool_output": "On the garbagecan 1, you see a apple 3, and a egg 3."}
+{"tool_output": "You pick up the apple 3 from the garbagecan 1."}
+{"tool_output": "On the sidetable 1, you see a cup 1, a lettuce 1, a peppershaker 3, a potato 1, and a saltshaker 1."}
+{"tool_output": "You put the apple 3 in/on the sidetable 1."}
+{"tool_output": "You are in the middle of a room. Looking quickly around you, you see a bathtubbasin 1, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a dresser 1, a garbagecan 1, a handtowelholder 1, a sinkbasin 2, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\nYour task is to: put a soapbottle in garbagecan."}
+{"tool_output": "On the toilet 1, you see nothing."}
+{"tool_output": "On the sinkbasin 1, you see nothing."}
+{"tool_output": "On the sinkbasin 2, you see nothing."}
+{"tool_output": "On the bathtubbasin 1, you see a cloth 2."}
+{"tool_output": "The cabinet 1 is closed."}
+{"tool_output": "You open the cabinet 1. The cabinet 1 is open. In it, you see nothing."}
+{"tool_output": "The cabinet 2 is closed."}
+{"tool_output": "You open the cabinet 2. The cabinet 2 is open. In it, you see nothing."}
+{"tool_output": "The cabinet 3 is closed."}
+{"tool_output": "You open the cabinet 3. The cabinet 3 is open. In it, you see a toiletpaper 2."}
+{"tool_output": "The cabinet 4 is closed."}
+{"tool_output": "You open the cabinet 4. The cabinet 4 is open. In it, you see a spraybottle 2."}
+{"tool_output": "On the countertop 1, you see a soapbottle 2, and a spraybottle 1."}
+{"tool_output": "You pick up the soapbottle 2 from the countertop 1."}
+{"tool_output": "On the garbagecan 1, you see nothing."}
+{"tool_output": "You put the soapbottle 2 in/on the garbagecan 1."}
+{"tool_output": "You are in the middle of a room. Looking quickly around you, you see a cabinet 13, a cabinet 12, a cabinet 11, a cabinet 10, a cabinet 9, a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 1, a diningtable 1, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a shelf 3, a shelf 2, a shelf 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\nYour task is to: put a clean lettuce in diningtable."}
+{"tool_output": "The fridge 1 is closed."}
+{"tool_output": "You open the fridge 1. The fridge 1 is open. In it, you see a cup 3, a egg 2, a potato 3, and a potato 2."}
+{"tool_output": "On the diningtable 1, you see a apple 1, a bread 1, a butterknife 2, a cup 2, a fork 2, a knife 2, a knife 1, a ladle 1, a lettuce 1, a mug 2, a mug 1, a pan 2, a peppershaker 1, a spatula 3, a tomato 2, and a tomato 1."}
+{"tool_output": "You pick up the lettuce 1 from the diningtable 1."}
+{"tool_output": "On the sinkbasin 1, you see a apple 2, a ladle 2, a spoon 1, and a tomato 3."}
+{"tool_output": "You clean the lettuce 1 using the sinkbasin 1."}
+{"tool_output": "On the diningtable 1, you see a apple 1, a bread 1, a butterknife 2, a cup 2, a fork 2, a knife 2, a knife 1, a ladle 1, a mug 2, a mug 1, a pan 2, a peppershaker 1, a spatula 3, a tomato 2, and a tomato 1."}
+{"tool_output": "You put the lettuce 1 in/on the diningtable 1."}
+{"tool_output": "You are in the middle of a room. Looking quickly around you, you see a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 1, a diningtable 3, a diningtable 2, a diningtable 1, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a sidetable 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\nYour task is to: clean some apple and put it in sidetable."}
+{"tool_output": "The fridge 1 is closed."}
+{"tool_output": "You open the fridge 1. The fridge 1 is open. In it, you see a lettuce 2, a mug 2, a potato 2, and a tomato 1."}
+{"tool_output": "On the diningtable 1, you see nothing."}
+{"tool_output": "On the diningtable 2, you see a pineapple 1."}
+{"tool_output": "On the diningtable 3, you see a bowl 2, a bowl 1, a bread 2, and a bread 1."}
+{"tool_output": "On the sidetable 1, you see a cup 1, a lettuce 1, a peppershaker 3, a potato 1, and a saltshaker 1."}
+{"tool_output": "On the countertop 1, you see a butterknife 1, a dishsponge 1, and a soapbottle 1."}
+{"tool_output": "On the sinkbasin 1, you see a cup 2, a egg 1, a mug 1, and a potato 3."}
+{"tool_output": "On the garbagecan 1, you see a apple 3, and a egg 3."}
+{"tool_output": "You pick up the apple 3 from the garbagecan 1."}
+{"tool_output": "On the sinkbasin 1, you see a cup 2, a egg 1, a mug 1, and a potato 3."}
+{"tool_output": "You clean the apple 3 using the sinkbasin 1."}
+{"tool_output": "On the sidetable 1, you see a cup 1, a lettuce 1, a peppershaker 3, a potato 1, and a saltshaker 1."}
+{"tool_output": "You put the apple 3 in/on the sidetable 1."}
+{"tool_output": "You are in the middle of a room. Looking quickly around you, you see a bathtubbasin 1, a garbagecan 1, a handtowelholder 1, a shelf 3, a shelf 2, a shelf 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\nYour task is to: clean some soapbar and put it in toilet."}
+{"tool_output": "On the toilet 1, you see a soapbar 4, and a soapbar 3."}
+{"tool_output": "You pick up the soapbar 4 from the toilet 1."}
+{"tool_output": "On the sinkbasin 1, you see nothing."}
+{"tool_output": "You clean the soapbar 4 using the sinkbasin 1."}
+{"tool_output": "On the toilet 1, you see a soapbar 3."}
+{"tool_output": "You put the soapbar 4 in/on the toilet 1."}
+{"tool_output": "You are in the middle of a room. Looking quickly around you, you see a cabinet 10, a cabinet 9, a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 3, a countertop 2, a countertop 1, a diningtable 1, a drawer 6, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\nYour task is to: heat some egg and put it in diningtable."}
+{"tool_output": "You open the fridge 1. The fridge 1 is open. In it, you see a lettuce 2, a mug 2, and a potato 3."}
+{"tool_output": "On the countertop 1, you see a bread 1, a fork 1, and a saltshaker 1."}
+{"tool_output": "On the countertop 2, you see nothing."}
+{"tool_output": "On the countertop 3, you see a bowl 1, a butterknife 1, a egg 2, a kettle 2, a plate 1, a sink 1, and a spatula 2."}
+{"tool_output": "You pick up the egg 2 from the countertop 3."}
+{"tool_output": "The microwave 1 is closed."}
+{"tool_output": "You heat the egg 2 using the microwave 1."}
+{"tool_output": "On the diningtable 1, you see a apple 2, a bread 3, a egg 1, a kettle 1, a knife 1, a mug 1, a papertowelroll 1, a peppershaker 2, a potato 1, a soapbottle 1, and a spatula 1."}
+{"tool_output": "You put the egg 2 in/on the diningtable 1."}
+{"tool_output": "You are in the middle of a room. Looking quickly around you, you see a cabinet 13, a cabinet 12, a cabinet 11, a cabinet 10, a cabinet 9, a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 1, a diningtable 1, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a shelf 3, a shelf 2, a shelf 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\nYour task is to: put a hot apple in fridge."}
+{"tool_output": "The fridge 1 is closed."}
+{"tool_output": "You open the fridge 1. The fridge 1 is open. In it, you see a cup 1, and a egg 1."}
+{"tool_output": "On the diningtable 1, you see a apple 1, a bread 1, a fork 3, a fork 2, a fork 1, a mug 2, a peppershaker 3, a plate 2, a pot 1, a soapbottle 3, a spatula 1, a spoon 3, a spoon 2, a spoon 1, a winebottle 3, and a winebottle 2."}
+{"tool_output": "You pick up the apple 1 from the diningtable 1."}
+{"tool_output": "The microwave 1 is closed."}
+{"tool_output": "You heat the apple 1 using the microwave 1."}
+{"tool_output": "The fridge 1 is open. In it, you see a cup 1, and a egg 1."}
+{"tool_output": "You put the apple 1 in/on the fridge 1."}
+{"tool_output": "You are in the middle of a room. Looking quickly around you, you see a cabinet 11, a cabinet 10, a cabinet 9, a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 2, a countertop 1, a diningtable 1, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\nYour task is to: heat some bread and put it in countertop."}
+{"tool_output": "The fridge 1 is closed."}
+{"tool_output": "You open the fridge 1. The fridge 1 is open. In it, you see a mug 3, and a mug 2."}
+{"tool_output": "On the toaster 1, you see nothing."}
+{"tool_output": "On the diningtable 1, you see a bread 4, a bread 3, a bread 2, a bread 1, a cup 2, a knife 1, a lettuce 1, a potato 3, a tomato 3, a tomato 2, and a winebottle 3."}
+{"tool_output": "You pick up the bread 1 from the diningtable 1."}
+{"tool_output": "The microwave 1 is closed."}
+{"tool_output": "You heat the bread 1 using the microwave 1."}
+{"tool_output": "On the countertop 1, you see a apple 1, a egg 1, a pan 2, a peppershaker 3, a plate 2, a plate 1, a soapbottle 1, and a winebottle 1."}
+{"tool_output": "You put the bread 1 in/on the countertop 1."}
+{"tool_output": "You are in the middle of a room. Looking quickly around you, you see a cabinet 16, a cabinet 15, a cabinet 14, a cabinet 13, a cabinet 12, a cabinet 11, a cabinet 10, a cabinet 9, a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 2, a countertop 1, a diningtable 1, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a safe 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\nYour task is to: cool some pan and put it in stoveburner.\n>go to stoveburner 1\nOn the stoveburner 1, you see nothing.\n>go to stoveburner 2\nOn the stoveburner 2, you see a pot 1."}
+{"tool_output": "On the stoveburner 3, you see a pan 1."}
+{"tool_output": "You pick up the pan 1 from the stoveburner 3."}
+{"tool_output": "The fridge 1 is closed."}
+{"tool_output": "You cool the pan 1 using the fridge 1.\n>go to stoveburner 1\nOn the stoveburner 1, you see nothing."}
+{"tool_output": "You put the pan 1 in/on the stoveburner 1."}
+{"tool_output": "You are in the middle of a room. Looking quickly around you, you see a cabinet 9, a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 3, a countertop 2, a countertop 1, a drawer 9, a drawer 8, a drawer 7, a drawer 6, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a shelf 3, a shelf 2, a shelf 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\nYour task is to: put a cool mug in shelf."}
+{"tool_output": "On the countertop 1, you see a knife 1, a pan 2, a pan 1, and a plate 1."}
+{"tool_output": "On the countertop 2, you see a apple 2, a butterknife 2, a fork 3, a houseplant 1, a knife 2, a lettuce 3, a spatula 1, and a winebottle 1."}
+{"tool_output": "On the countertop 3, you see a apple 1, a book 1, a bread 1, a butterknife 3, a glassbottle 2, a glassbottle 1, a knife 3, a lettuce 2, a lettuce 1, a papertowelroll 1, a plate 3, a spoon 1, a statue 1, and a vase 2."}
+{"tool_output": "On the coffeemachine 1, you see nothing."}
+{"tool_output": "The cabinet 1 is closed."}
+{"tool_output": "You open the cabinet 1. The cabinet 1 is open. In it, you see nothing."}
+{"tool_output": "The cabinet 2 is closed."}
+{"tool_output": "You open the cabinet 2. The cabinet 2 is open. In it, you see nothing."}
+{"tool_output": "The cabinet 3 is closed."}
+{"tool_output": "You open the cabinet 3. The cabinet 3 is open. In it, you see a pot 1."}
+{"tool_output": "On the cabinet 4, you see nothing."}
+{"tool_output": "The cabinet 5 is closed."}
+{"tool_output": "You open the cabinet 5. The cabinet 5 is open. In it, you see nothing."}
+{"tool_output": "The cabinet 6 is closed."}
+{"tool_output": "You open the cabinet 6. The cabinet 6 is open. In it, you see a mug 3."}
+{"tool_output": "You pick up the mug 3 from the cabinet 6."}
+{"tool_output": "The fridge 1 is closed."}
+{"tool_output": "You cool the mug 3 using the fridge 1."}
+{"tool_output": "On the shelf 1, you see a cup 2, a cup 1, a peppershaker 1, and a saltshaker 1."}
+{"tool_output": "You put the mug 3 in/on the shelf 1."}
+{"tool_output": "You are in the middle of a room. Looking quickly around you, you see a cabinet 12, a cabinet 11, a cabinet 10, a cabinet 9, a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 2, a countertop 1, a diningtable 1, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\nYour task is to: cool some potato and put it in diningtable."}
+{"tool_output": "The fridge 1 is closed."}
+{"tool_output": "You open the fridge 1. The fridge 1 is open. In it, you see a apple 1, a bowl 1, a lettuce 2, and a lettuce 1."}
+{"tool_output": "On the diningtable 1, you see a apple 3, a bread 1, a butterknife 3, a egg 2, a fork 1, a knife 2, a knife 1, a mug 1, a peppershaker 3, a plate 1, a potato 4, a potato 2, a saltshaker 2, a soapbottle 2, and a tomato 3."}
+{"tool_output": "You pick up the potato 2 from the diningtable 1."}
+{"tool_output": "The fridge 1 is open. In it, you see a apple 1, a bowl 1, a lettuce 2, and a lettuce 1."}
+{"tool_output": "You cool the potato 2 using the fridge 1."}
+{"tool_output": "On the diningtable 1, you see a apple 3, a bread 1, a butterknife 3, a egg 2, a fork 1, a knife 2, a knife 1, a mug 1, a peppershaker 3, a plate 1, a potato 4, a saltshaker 2, a soapbottle 2, and a tomato 3."}
+{"tool_output": "You put the potato 2 in/on the diningtable 1."}
+{"tool_output": "You are in the middle of a room. Looking quickly around you, you see a armchair 2, a armchair 1, a bed 1, a countertop 1, a diningtable 1, a drawer 2, a drawer 1, a dresser 1, a garbagecan 1, a laundryhamper 1, and a sidetable 1.\nYour task is to: put two creditcard in dresser."}
+{"tool_output": "The drawer 1 is closed."}
+{"tool_output": "You open the drawer 1. The drawer 1 is open. In it, you see a book 1, a cd 1, and a pen 1."}
+{"tool_output": "The drawer 2 is closed."}
+{"tool_output": "You open the drawer 2. The drawer 2 is open. In it, you see nothing."}
+{"tool_output": "On the countertop 1, you see a cellphone 2, a creditcard 4, a creditcard 3, a creditcard 2, a mirror 1, a pencil 2, and a pencil 1."}
+{"tool_output": "You pick up the creditcard 2 from the countertop 1."}
+{"tool_output": "On the dresser 1, you see a mug 1, and a television 1."}
+{"tool_output": "You put the creditcard 2 in/on the dresser 1."}
+{"tool_output": "On the countertop 1, you see a cellphone 2, a creditcard 4, a creditcard 3, a mirror 1, a pencil 2, and a pencil 1."}
+{"tool_output": "You pick up the creditcard 3 from the countertop 1."}
+{"tool_output": "On the dresser 1, you see a creditcard 2, a mug 1, and a television 1."}
+{"tool_output": "You put the creditcard 3 in/on the dresser 1."}
+{"tool_output": "You are in the middle of a room. Looking quickly around you, you see a coffeetable 1, a diningtable 1, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a dresser 1, a garbagecan 1, a sidetable 2, a sidetable 1, and a sofa 1.\nYour task is to: put two cellphone in sofa."}
+{"tool_output": "On the coffeetable 1, you see a box 1, a cellphone 3, and a plate 1."}
+{"tool_output": "You pick up the cellphone 3 from the coffeetable 1."}
+{"tool_output": "On the sofa 1, you see a newspaper 2, a pillow 1, a remotecontrol 2, and a remotecontrol 1."}
+{"tool_output": "You put the cellphone 3 in/on the sofa 1."}
+{"tool_output": "On the diningtable 1, you see a cellphone 2, a keychain 2, a laptop 1, a statue 2, and a statue 1."}
+{"tool_output": "You pick up the cellphone 2 from the diningtable 1."}
+{"tool_output": "On the sofa 1, you see a cellphone 3, a newspaper 2, a pillow 1, a remotecontrol 2, and a remotecontrol 1."}
+{"tool_output": "You put the cellphone 2 in/on the sofa 1."}
+{"tool_output": "You are in the middle of a room. Looking quickly around you, you see a cabinet 20, a cabinet 19, a cabinet 18, a cabinet 17, a cabinet 16, a cabinet 15, a cabinet 14, a cabinet 13, a cabinet 12, a cabinet 11, a cabinet 10, a cabinet 9, a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 3, a countertop 2, a countertop 1, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a shelf 3, a shelf 2, a shelf 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\nYour task is to: put two saltshaker in drawer."}
+{"tool_output": "The drawer 1 is closed."}
+{"tool_output": "You open the drawer 1. The drawer 1 is open. In it, you see nothing."}
+{"tool_output": "The drawer 2 is closed."}
+{"tool_output": "You open the drawer 2. The drawer 2 is open. In it, you see a dishsponge 3."}
+{"tool_output": "The drawer 3 is closed."}
+{"tool_output": "You open the drawer 3. The drawer 3 is open. In it, you see a fork 2, a ladle 2, and a spoon 1."}
+{"tool_output": "On the countertop 1, you see a bowl 1, a butterknife 1, a mug 2, a pan 1, a papertowelroll 1, a spatula 1, and a statue 3."}
+{"tool_output": "On the countertop 2, you see a bread 1, a butterknife 2, a dishsponge 2, a fork 1, a kettle 1, a knife 1, a ladle 1, a spatula 3, a spoon 2, a statue 2, and a vase 3."}
+{"tool_output": "On the countertop 3, you see a bowl 2, a houseplant 1, a knife 2, a peppershaker 1, a saltshaker 4, a soapbottle 1, a spatula 2, and a tomato 3."}
+{"tool_output": "You pick up the saltshaker 4 from the countertop 3."}
+{"tool_output": "The drawer 1 is open. In it, you see nothing."}
+{"tool_output": "You put the saltshaker 4 in/on the drawer 1."}
+{"tool_output": "On the shelf 1, you see a statue 1."}
+{"tool_output": "On the shelf 2, you see a dishsponge 1, and a vase 1."}
+{"tool_output": "On the shelf 3, you see nothing."}
+{"tool_output": "The cabinet 1 is closed."}
+{"tool_output": "You open the cabinet 1. The cabinet 1 is open. In it, you see nothing."}
+{"tool_output": "Nothing happens."}
+{"tool_output": "You are facing the cabinet 2, and cabinet 1. Next to it, you see nothing."}
+{"tool_output": "The cabinet 3 is closed."}
+{"tool_output": "You open the cabinet 3. The cabinet 3 is open. In it, you see a saltshaker 3, and a saltshaker 2."}
+{"tool_output": "You pick up the saltshaker 2 from the cabinet 3."}
+{"tool_output": "The drawer 1 is open. In it, you see a saltshaker 4."}
+{"tool_output": "You put the saltshaker 2 in/on the drawer 1."}
+{"tool_output": "You are in the middle of a room. Looking quickly around you, you see a bed 1, a desk 1, a drawer 3, a drawer 2, a drawer 1, a garbagecan 1, a safe 1, a shelf 5, a shelf 4, a shelf 3, a shelf 2, a shelf 1, a sidetable 2, and a sidetable 1.\nYour task is to: look at bowl under the desklamp.\nOK."}
+{"tool_output": "On the drawer 1, you see nothing."}
+{"tool_output": "The drawer 2 is closed."}
+{"tool_output": "You open the drawer 2. The drawer 2 is open. In it, you see nothing."}
+{"tool_output": "The drawer 3 is closed."}
+{"tool_output": "You open the drawer 3. The drawer 3 is open. In it, you see nothing."}
+{"tool_output": "On the desk 1, you see a alarmclock 2, a book 1, a cellphone 1, a keychain 1, a laptop 2, a laptop 1, and a pen 3."}
+{"tool_output": "On the sidetable 1, you see a cd 1, a pen 1, and a pencil 1."}
+{"tool_output": "On the shelf 1, you see nothing."}
+{"tool_output": "On the shelf 2, you see a bowl 1."}
+{"tool_output": "You pick up the bowl 1 from the shelf 2."}
+{"tool_output": "On the desk 1, you see a alarmclock 2, a book 1, a cellphone 1, a keychain 1, a laptop 2, a laptop 1, and a pen 3."}
+{"tool_output": "On the sidetable 1, you see a cd 1, a pen 1, and a pencil 1."}
+{"tool_output": "On the sidetable 2, you see a alarmclock 1, a desklamp 1, and a pen 2."}
+{"tool_output": "You turn on the desklamp 1."}
+{"tool_output": "You are in the middle of a room. Looking quickly around you, you see a bed 1, a drawer 10, a drawer 9, a drawer 8, a drawer 7, a drawer 6, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a dresser 1, a garbagecan 1, a shelf 9, a shelf 8, a shelf 7, a shelf 6, a shelf 5, a shelf 4, a shelf 3, a shelf 2, and a shelf 1.\nYour task is to: examine the pen with the desklamp."}
+{"tool_output": "The drawer 1 is closed."}
+{"tool_output": "You open the drawer 1. The drawer 1 is open. In it, you see nothing."}
+{"tool_output": "The drawer 2 is closed."}
+{"tool_output": "You open the drawer 2. The drawer 2 is open. In it, you see nothing."}
+{"tool_output": "The drawer 3 is closed."}
+{"tool_output": "You open the drawer 3. The drawer 3 is open. In it, you see nothing."}
+{"tool_output": "The drawer 4 is closed."}
+{"tool_output": "You open the drawer 4. The drawer 4 is open. In it, you see a cd 3, a keychain 1, and a pen 2."}
+{"tool_output": "You pick up the pen 2 from the drawer 4."}
+{"tool_output": "On the dresser 1, you see a alarmclock 2, a alarmclock 1, a book 1, a cd 1, a creditcard 1, a desklamp 1, a keychain 2, a pen 3, and a pen 1."}
+{"tool_output": "You turn on the desklamp 1."}
+{"tool_output": "You are in the middle of a room. Looking quickly around you, you see a coffeetable 1, a diningtable 1, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a dresser 1, a garbagecan 1, a sidetable 2, a sidetable 1, and a sofa 1.\nYour task is to: look at statue under the desklamp."}
+{"tool_output": "On the dresser 1, you see a cellphone 3, a newspaper 2, a statue 1, and a television 1."}
+{"tool_output": "You pick up the statue 1 from the dresser 1."}
+{"tool_output": "On the sidetable 1, you see nothing."}
+{"tool_output": "On the sidetable 2, you see a desklamp 3, a newspaper 1, and a statue 2."}
+{"tool_output": "You turn on the desklamp 3."}

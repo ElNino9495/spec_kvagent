@@ -1,0 +1,71 @@
+\documentclass[10pt,twocolumn,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{letterpaper, margin=1in}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{booktabs}
+\usepackage{microtype}
+\usepackage{cite}
+\usepackage{appendix}
+
+\title{\textbf{Speculative KV Cache Quantization for Agentic Serving}}
+\author{
+    Arihan Iyer \\ \texttt{iamarihan@umich.edu} \and
+    Kushagra Mishra \\ \texttt{kushm@umich.edu} \and
+    Jatin Shihora \\ \texttt{jatinsh@umich.edu} \and
+    Rohit Puthucode \\ \texttt{rohitps@umich.edu}
+}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+The key-value (KV) cache is a foundational mechanism for accelerating autoregressive generation in Large Language Models (LLMs). However, its linear growth imposes severe GPU memory pressure in long-context and multi-turn agentic environments. Existing approximation techniques rely either on  cache eviction (which drops tokens permanently) or uniform low-bit quantization (which degrades critical contextual nuances). Recent draft-based approaches incorporate future lookahead to guide eviction, but they remain confined to single greedy generation trajectories. We propose a speculative multi-rollout KV cache quantization framework. When GPU memory pressure crosses a critical threshold, our system launches $N$ parallel lookahead rollouts using an inexpensive draft model to anticipate diverse future execution paths. By extracting consensus attention signals across rollouts, the system isolates high-value tokens to retain in high precision  while compressing the remaining context into a low-bit representation. This ensures that memory footprint is significantly reduced while preventing unrecoverable contextual degradation.
+\end{abstract}
+
+\section{Introduction}
+Modern LLM agents frequently operate over long horizons, executing multi-turn workflows that incorporate extensive system instructions, tool documentation, retrieval chunks, and execution histories. In these settings, context sizes rapidly expand toward $100\text{k}$ to $1\text{M}$ tokens. Storing the KV cache for such sequences consumes massive High-Bandwidth Memory (HBM). For instance, serving a 32B-parameter model on an 80\,GB GPU leaves limited remaining memory for concurrent KV states, directly constraining batch sizes and serving throughput.
+
+To alleviate memory pressure, prior work explores post-training KV cache reduction. Cache eviction policies (e.g., H2O\cite{h2023}, SnapKV\cite{snapkv24}) permanently discard tokens considered unimportant based on past attention scores. However, in agentic workloads with non-linear or shifting execution goals, discarded tokens often become critical in subsequent steps, leading to unrecoverable reasoning errors. Conversely, uniform post-training quantization (e.g., KIVI\cite{kivi24}) compresses all tokens uniformly, preserving sequence integrity but risking numerical degradation on outlier channels and sensitive attention sinks.
+
+Recent work, such as SpecKV \cite{speckv26}, demonstrates that looking ahead into future generations via a small draft model yields significantly more accurate token-importance estimates than retrospective attention signals alone. Nonetheless, existing lookahead systems employ single greedy draft paths, making them vulnerable to draft hallucinations and branch divergence.
+
+We propose an adaptive, speculative mixed-precision KV cache manager. Rather than dropping tokens permanently, our system dynamically quantizes tokens based on consensus attention importance derived from $N$ stochastic rollouts of a lightweight draft model. High-consensus tokens are pinned in full precision, while non-critical tokens are down-quantized to lower bit representations, achieving high compression without irreversible information loss.
+
+\section{Related Work}
+\noindent\textbf{KV Cache Compression vs. Eviction.} Standard KV cache eviction algorithms (H2O~\cite{h2023}, SnapKV~\cite{snapkv24}) drop cache entries to enforce a strict memory budget $C_{\text{max}}$. While effective at reducing peak VRAM, hard eviction suffers from irreversible forgetting. When an agent enters a subsequent reasoning turn requiring reference to an earlier code snippet or tool schema, the dropped context forces re-computation or induces hallucinations.
+
+\noindent\textbf{Quantized KV Caches.} Quantization schemes such as KIVI~\cite{kivi24} compress key and value matrices to lower bit-widths. While lossless in gross retrieval tasks, ultra-low-bit representations (1-bit or 2-bit) experience accuracy drops in dense reasoning tasks unless critical outlier channels and attention sinks are preserved in higher precision.
+
+\noindent\textbf{Draft-Based Approximate Inference.} SpecKV~\cite{speckv26} introduces the use of a smaller model from the same architectural family to generate a sequence of draft tokens. By computing cross-attention from draft queries back to prompt keys, SpecKV identifies influential tokens before performing eviction. However, SpecKV is limited to a single deterministic draft trace ($N=1$) and relies entirely on hard token dropping.
+
+\noindent\textbf{Speculative Agent and Tree Execution.} Recent systems apply speculation across broader agent components. PASTE~\cite{sui2026parallelizingtoolexecutionllm} and Speculative Actions~\cite{specaction26} exploit predictable control and data flow patterns to speculatively execute external tool invocations and API calls, hiding round-trip environment latency. In tree-structured reasoning, SPEX~\cite{tot2026} breaks reward synchronization barriers by speculatively expanding promising branches in parallel. Our work is complementary: while these approaches speculate over external actions or reasoning frontiers, we apply speculative multi-branch consensus internally to manage the physical KV cache memory tier.
+
+\section{Proposed Methodology}
+
+\subsection{Triggered Multi Rollout Lookahead}
+Running continuous speculative rollouts introduces compute overhead. We treat speculative compression as an elastic resource allocation mechanism, invoked only under high GPU memory pressure.
+
+When triggered, the serving system forks the current sequence context to a lightweight draft model (e.g., Llama-3.2-1B for a Llama-3.1-8B/70B target). The draft model executes $N$ parallel stochastic rollouts (where $N \in [4, 8]$) for a lookahead horizon of $L = 10$ tokens. Because the draft model has a substantially smaller hidden dimension and runs with batched decoding, generating short speculative tokens introduces minimal latency.
+
+\subsection{Consensus Attention Scoring}
+For each rollout branch $j \in \{1, \dots, N\}$, we capture the cross-attention activations $A^{(j)} \in \mathbb{R}^{L \times T_{\text{ctx}}}$ between the draft query tokens and the existing context keys. We define the consensus importance score $S_i$ for context token $i$ as:
+\begin{equation}
+S_i = \frac{1}{N} \sum_{j=1}^N \max_{t \in \{1, \dots, L\}} A^{(j)}_{t, i}
+\end{equation}
+By computing the maximum attention across the horizon and averaging across the branches, $S_i$ highlights tokens that consistently matter across multiple probable reasoning paths, filtering out branch-specific noise.
+
+\subsection{Dynamic Mixed-Precision Quantization}
+The scheduler then partitions the KV cache as per the following:
+\begin{itemize}
+    \item \textbf{High-Precision Subset ($S_{\text{high}}$):} The top-$k\%$ tokens with the highest consensus scores $S_i$ (along with initial attention sinks and recent window tokens) are retained in FP16/BF16.
+    \item \textbf{Compressed Subset ($S_{\text{low}}$):} The remaining tokens are dynamically quantized to 4-bit or 2-bit representations using channel-wise scaling factors.
+\end{itemize}
+This ensures that memory is aggressively freed while retaining structural information across the entire sequence.
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}
