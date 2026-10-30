@@ -3,3 +3,11 @@ __pycache__/
 .ipynb_checkpoints/
 *.safetensors
 *.bin
+.pytest_cache/
+
+# kv_manager: local environment (rebuild with kv_manager/envt/setup_env.sh) and downloaded data
+/kv_manager/envt/.venv/
+/kv_manager/envt/.python/
+/kv_manager/envt/.tools/
+/kv_manager/envt/.uv-cache/
+/kv_manager/data/

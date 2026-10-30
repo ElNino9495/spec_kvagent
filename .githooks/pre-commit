@@ -1,0 +1,60 @@
+#!/bin/sh
+set -eu
+
+cd "$(git rev-parse --show-toplevel)"
+file=learnings/learnings.txt
+separator=$(printf '%100s' '' | tr ' ' '-')
+
+# The cached diff also works before the repository's first commit.
+additions=$(git diff --cached --numstat -- "$file" | awk '{print $1}')
+case "$additions" in
+    ''|0) exit 0 ;;
+    -)
+        echo "pre-commit: $file must be a text file." >&2
+        exit 1
+        ;;
+esac
+
+mode=$(git ls-files --stage -- "$file" | awk '{print $1}')
+case "$mode" in
+    100644|100755) ;;
+    *)
+        echo "pre-commit: $file must be a regular file without merge conflicts." >&2
+        exit 1
+        ;;
+esac
+
+temp_dir=$(mktemp -d)
+trap 'rm -f "$temp_dir/staged" "$temp_dir/formatted"; rmdir "$temp_dir"' EXIT
+trap 'exit 1' HUP INT TERM
+git show ":$file" > "$temp_dir/staged"
+if grep -q '[^[:space:]]' "$temp_dir/staged"; then
+    :
+else
+    status=$?
+    if [ "$status" -eq 1 ]; then
+        exit 0
+    fi
+    echo "pre-commit: could not read staged $file." >&2
+    exit "$status"
+fi
+
+if [ "$(head -n 1 "$temp_dir/staged")" = "$separator" ]; then
+    exit 0
+fi
+
+# Do not let git add pull unrelated, unstaged learnings into the commit.
+if git diff --quiet -- "$file"; then
+    :
+else
+    echo "pre-commit: stage all changes to $file (or stash its unstaged edits), then retry." >&2
+    exit 1
+fi
+
+{
+    printf '%s\n' "$separator"
+    cat "$temp_dir/staged"
+} > "$temp_dir/formatted"
+cat "$temp_dir/formatted" > "$file"
+git add -- "$file"
+echo "pre-commit: added a 100-hyphen separator to $file."
