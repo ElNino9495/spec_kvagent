@@ -1,7 +1,8 @@
 # kv_manager: draft-guided precision for KV reload after tool-call pauses
 
 Working directory for the new idea, built on vLLM 0.27.1 (the baseline). No custom kernels:
-everything is plain PyTorch plus vLLM's existing plugin points.
+everything is plain PyTorch plus vLLM's existing plugin points. For the background, goals and
+phases, read the project docs in [`../docs/`](../docs/README.md). This README covers the commands.
 
 ## Idea
 

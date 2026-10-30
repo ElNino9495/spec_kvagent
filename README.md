@@ -1,4 +1,9 @@
 # Speculative KV Cache Quantization for Agentic Serving
+
+> **New here? Start with [docs/](docs/README.md).** It explains the problem, the idea, goals, phases and
+> benchmarks from scratch. The summary below is the original proposal; the project has since moved to
+> draft-guided precision for reloading KV after agent tool calls ([docs/02-idea.md](docs/02-idea.md)).
+
 ## Project summary
 
 The KV cache grows linearly with context length, which is a serious memory
@@ -31,6 +36,7 @@ We propose a **speculative multi-rollout KV cache quantization** scheme:
 ├── data/
 │   └── sample_tool_outputs.jsonl  # example trace schema — replace with real SWE-bench/BFCL traces
 ├── results/                # baseline_experiment.py output lands here (gitignored)
+├── docs/                   # project documentation: problem, idea, goals, phases, benchmarks, architecture
 ├── kv_manager/             # new idea: draft-guided precision for KV reload after tool pauses (vLLM 0.27.1); see its README
 └── requirements.txt
 ```
